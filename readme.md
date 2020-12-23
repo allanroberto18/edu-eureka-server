@@ -1,4 +1,14 @@
-# How to run the container
+# Prepare the docker image
+
+```
+# Generate jar file
+mvn clean install
+
+# Generate docker image
+docker build -t image_name:version .
+```
+
+### How to run the application from docker image
 
 In terminal run the command below:
 
